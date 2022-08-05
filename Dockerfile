@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 MAINTAINER Philippe Arteau "parteau@gosecure.ca"
 
 RUN apt update -y
-RUN apt-get install python-setuptools
+RUN apt-get install python-setuptools -y
 
 RUN easy_install pip==20.3.4
 
