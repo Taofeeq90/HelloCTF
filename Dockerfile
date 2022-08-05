@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 MAINTAINER Philippe Arteau "parteau@gosecure.ca"
 
 RUN apt update -y
