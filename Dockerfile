@@ -4,6 +4,7 @@ MAINTAINER Philippe Arteau "parteau@gosecure.ca"
 RUN apt install software-properties-common
 
 RUN apt update -y
+RUN apt install software-properties-common -y
 RUN apt-get install python-setuptools -y
 
 RUN add-apt-repository universe -y
