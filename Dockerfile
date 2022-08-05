@@ -7,6 +7,8 @@ RUN mkdir /app
 COPY src /app
 WORKDIR /app
 
+RUN easy_install pip==20.3.4
+
 RUN pip2 install -r requirements.txt
 
 ENTRYPOINT ["python2"]
