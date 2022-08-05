@@ -1,8 +1,6 @@
 FROM ubuntu:20.04
 MAINTAINER Philippe Arteau "parteau@gosecure.ca"
 
-RUN apt install software-properties-common
-
 RUN apt update -y
 RUN apt install software-properties-common -y
 RUN apt-get install python-setuptools -y
