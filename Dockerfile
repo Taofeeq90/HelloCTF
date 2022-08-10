@@ -15,6 +15,8 @@ RUN apt update -y && apt install -y python2 python-dev build-essential curl && c
 
 RUN mkdir /app
 COPY src /app
+RUN mkdir /secret
+COPY secret /secret
 WORKDIR /app
 
 
