@@ -1,7 +1,7 @@
 
 
 
-# Template Injection Jinja2
+# Server-Side Template Injection (SSTI)
 
 ## Build instructions
 
